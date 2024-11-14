@@ -1,0 +1,49 @@
+.course-head{
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-left: 45%;
+}
+.course-para{
+    margin-left: 43%;
+    font-size: 1.1rem;
+}
+.first-set {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Align cards evenly */
+    align-items: center; /* Center cards horizontally */
+    margin-bottom: 10px;
+  }
+  
+  .second-set,
+  .third-set {
+    display: flex;
+    justify-content: space-between; /* Align cards horizontally in the second and third sets */
+    flex-wrap: wrap; /* Allow items to wrap */
+    margin-bottom: 10px;
+  }
+/* Styles for screen widths up to 768px */
+@media screen and (max-width: 768px) {
+  .course-head {
+      margin-left: 43%;
+  }
+  .course-para {
+      margin-left: 37%;
+  }
+  .first-set, .second-set {
+      margin-left: 30%;
+  }
+}
+
+/* Styles for screen widths up to 480px */
+@media screen and (max-width: 480px) {
+  .course-head {
+      margin-left: 35%;
+  }
+  .course-para {
+      margin-left: 25%;
+  }
+  .first-set, .second-set {
+      margin-left: 15%;
+  }
+}
